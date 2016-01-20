@@ -9,12 +9,15 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
+import android.widget.TextView;
+
 import android.content.Intent;
 import android.net.Uri;
 
 public class Details extends AppCompatActivity {
 
     private Button buyNowButton;
+    private TextView itemDescriptionTextView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +33,10 @@ public class Details extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        itemDescriptionTextView = (TextView) findViewById(R.id.itemDescriptionTextView);
+
+
     }
 
     @Override

@@ -13,7 +13,7 @@
     tools:showIn="@layout/activity_details">
 
     <Button
-        android:layout_width="600px"
+        android:layout_width="650px"
         android:layout_height="wrap_content"
         android:text="Buy Now"
         android:id="@+id/buyNowButton"
@@ -27,6 +27,43 @@
         android:src="@drawable/preview"
         android:layout_above="@+id/buyNowButton"
         android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="&#8226; Free shipping from Amazon"
+        android:id="@+id/itemDescriptionTextView"
+        android:textSize="16dp"
+        android:textColor="#000000"
+        android:fontFamily="Arial"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/buyNowButton"
+        android:layout_alignStart="@+id/buyNowButton" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="&#8226; Color: Black"
+        android:id="@+id/itemDescriptionTextView2"
+        android:textSize="16dp"
+        android:textColor="#000000"
+        android:fontFamily="Arial"
+        android:layout_below="@+id/itemDescriptionTextView"
+        android:layout_alignStart="@+id/itemDescriptionTextView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="&#8226; Fits 15-inch laptop"
+        android:id="@+id/itemDescriptionTextView3"
+        android:textSize="16dp"
+        android:textColor="#000000"
+        android:fontFamily="Arial"
+        android:layout_below="@+id/itemDescriptionTextView2"
+        android:layout_alignStart="@+id/itemDescriptionTextView2" />
 
 
 </RelativeLayout>
